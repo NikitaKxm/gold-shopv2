@@ -5,7 +5,6 @@ menuBtn.addEventListener('click', function(){
 	menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
 });
-
 function toggleDropdown() {
   let dropdownMenu = document.getElementById('dropdownMenu');
   dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
